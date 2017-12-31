@@ -1,0 +1,122 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>youshan.com</groupId>
+  <artifactId>mobileAppService</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>mobileAppService-entity</module>
+    <module>mobileAppService-repository</module>
+    <module>mobileAppService-repositoryImpl</module>
+    <module>mobileAppService-business</module>
+    <module>mobileAppService-businessImpl</module>
+    <module>mobileAppService-host</module>
+  </modules>
+
+  <packaging>pom</packaging>
+  <name>mobileAppService</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java-version>1.8</java-version>
+    <cxf.version>2.2.3</cxf.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- local dependence-->
+      <dependency>
+        <groupId>youshan.com</groupId>
+        <artifactId>mobileAppService-host</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>youshan.com</groupId>
+        <artifactId>mobileAppService-business</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>youshan.com</groupId>
+        <artifactId>mobileAppService-businessImpl</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>youshan.com</groupId>
+        <artifactId>mobileAppService-entity</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>youshan.com</groupId>
+        <artifactId>mobileAppService-repository</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>youshan.com</groupId>
+        <artifactId>mobileAppService-repositoryImpl</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <!-- 核心工具类，Spring其它模块大量使用Spring-core -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>4.2.5.RELEASE</version>
+    </dependency>
+
+    <!-- 运行时Spring容器 -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>4.2.5.RELEASE</version>
+    </dependency>
+
+    <!-- Spring容器对第三方包的集成 -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context-support</artifactId>
+      <version>4.2.5.RELEASE</version>
+    </dependency>
+
+    <!-- Spring定义Bean的支持 -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-beans</artifactId>
+      <version>4.2.5.RELEASE</version>
+    </dependency>
+
+    <!-- 提供基础的web集成的功能，在web项目中提供Spring容器 -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>4.2.5.RELEASE</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-api -->
+    <dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-frontend-jaxws</artifactId>
+      <version>${cxf.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-transports-http</artifactId>
+      <version>${cxf.version}</version>
+    </dependency>
+  </dependencies>
+
+
+
+
+
+</project>

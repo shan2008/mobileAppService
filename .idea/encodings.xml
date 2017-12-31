@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mobileAppService-business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mobileAppService-businessImpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mobileAppService-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mobileAppService-host" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mobileAppService-host" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mobileAppService-repository" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mobileAppService-repositoryImpl" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

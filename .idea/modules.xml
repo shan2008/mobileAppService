@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mobileAppService.iml" filepath="$PROJECT_DIR$/mobileAppService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileAppService-business/mobileAppService-business.iml" filepath="$PROJECT_DIR$/mobileAppService-business/mobileAppService-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileAppService-businessImpl/mobileAppService-businessImpl.iml" filepath="$PROJECT_DIR$/mobileAppService-businessImpl/mobileAppService-businessImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileAppService-entity/mobileAppService-entity.iml" filepath="$PROJECT_DIR$/mobileAppService-entity/mobileAppService-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileAppService-host/mobileAppService-host.iml" filepath="$PROJECT_DIR$/mobileAppService-host/mobileAppService-host.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileAppService-repository/mobileAppService-repository.iml" filepath="$PROJECT_DIR$/mobileAppService-repository/mobileAppService-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileAppService-repositoryImpl/mobileAppService-repositoryImpl.iml" filepath="$PROJECT_DIR$/mobileAppService-repositoryImpl/mobileAppService-repositoryImpl.iml" />
+    </modules>
+  </component>
+</project>
