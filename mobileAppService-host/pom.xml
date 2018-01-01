@@ -20,16 +20,17 @@
             <groupId>youshan.com</groupId>
             <artifactId>mobileAppService-business</artifactId>
         </dependency>
-
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>4.3.3.RELEASE</version>
+            <groupId>youshan.com</groupId>
+            <artifactId>mobileAppService-businessImpl</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>4.3.8.RELEASE</version>
+            <groupId>youshan.com</groupId>
+            <artifactId>mobileAppService-repositoryImpl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>youshan.com</groupId>
+            <artifactId>mobileAppService-repository</artifactId>
         </dependency>
     </dependencies>
 </project>

@@ -8,7 +8,7 @@ import javax.jws.WebService;
 @WebService
 public interface MobileAppService {
 
-    PhoneInfoEntity getPhonInfoById(int id);
+   public PhoneInfoEntity getPhonInfoById(int id);
 
-    boolean deletePhoneInfoById(int id);
+   public boolean deletePhoneInfoById(int id);
 }

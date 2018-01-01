@@ -1,18 +1,17 @@
 package youshan.com;
-import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import javax.jws.WebService;
 
 /**
  * Created by syou on 2017/12/31.
  */
-
-@Service
+@Component
+@WebService(endpointInterface = "youshan.com.MobileAppService")
 public class MobileAppServiceImpl implements MobileAppService {
-    private final PhoneInfoBusiness  phoneInfoBusiness;
-
-    public MobileAppServiceImpl(PhoneInfoBusiness phoneInfoBusiness){
-        this.phoneInfoBusiness=phoneInfoBusiness;
-    }
-
+    @Autowired
+    private PhoneInfoBusiness  phoneInfoBusiness;
     @Override
     public PhoneInfoEntity getPhonInfoById(int id) {
         return phoneInfoBusiness.getPhonInfoById(id);

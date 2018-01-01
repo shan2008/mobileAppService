@@ -4,16 +4,15 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:jaxws="http://cxf.apache.org/jaxws"
        xsi:schemaLocation="
-		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
-		http://cxf.apache.org/jaxws http://cxf.apache.org//schema/jaxws.xsd">
+		http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 
-    <context:component-scan base-package="youshan.com"/>
+ <context:component-scan base-package="youshan.com"></context:component-scan>
     <jaxws:server address="/mobileAppManager" serviceClass="youshan.com.MobileAppService">
         <jaxws:serviceBean>
             <ref bean="mobileAppServiceImpl"/>
         </jaxws:serviceBean>
-
         <jaxws:inInterceptors>
             <bean class="org.apache.cxf.interceptor.LoggingInInterceptor"/>
         </jaxws:inInterceptors>

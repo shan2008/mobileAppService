@@ -30,14 +30,14 @@
         <module name="mobileAppService-repositoryImpl" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="mobileAppService" target="1.8" />
-      <module name="mobileAppService-business" target="1.8" />
-      <module name="mobileAppService-businessImpl" target="1.8" />
-      <module name="mobileAppService-entity" target="1.8" />
-      <module name="mobileAppService-host" target="1.8" />
-      <module name="mobileAppService-repository" target="1.8" />
-      <module name="mobileAppService-repositoryImpl" target="1.8" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="mobileAppService" target="1.7" />
+      <module name="mobileAppService-business" target="1.7" />
+      <module name="mobileAppService-businessImpl" target="1.7" />
+      <module name="mobileAppService-entity" target="1.7" />
+      <module name="mobileAppService-host" target="1.7" />
+      <module name="mobileAppService-repository" target="1.7" />
+      <module name="mobileAppService-repositoryImpl" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
