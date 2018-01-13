@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="mobileAppService-host:war exploded">
+    <output-path>$PROJECT_DIR$/mobileAppService-host/target/mobileAppService-host-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mobileAppService-host" />
+          <element id="module-output" name="mobileAppService-business" />
+          <element id="module-output" name="mobileAppService-entity" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.5.RELEASE" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="mobileAppService-host/web/Web" />
+    </root>
+  </artifact>
+</component>
