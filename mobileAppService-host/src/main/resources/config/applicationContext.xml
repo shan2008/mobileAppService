@@ -7,6 +7,9 @@
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
 		http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+<!-- localhost:8080+项目名+ws+/
+WSDL路径：http://localhost:8080/mobileAppService-host/ws/mobileAppManager?wsdl
+-->
 
  <context:component-scan base-package="youshan.com"></context:component-scan>
     <jaxws:server address="/mobileAppManager" serviceClass="youshan.com.MobileAppService">

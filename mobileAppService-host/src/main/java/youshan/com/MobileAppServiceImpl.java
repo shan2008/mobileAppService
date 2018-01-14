@@ -8,7 +8,6 @@ import javax.jws.WebService;
  * Created by syou on 2017/12/31.
  */
 @Component
-@WebService(endpointInterface = "youshan.com.MobileAppService")
 public class MobileAppServiceImpl implements MobileAppService {
     @Autowired
     private PhoneInfoBusiness  phoneInfoBusiness;
